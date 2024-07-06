@@ -1,36 +1,34 @@
 :root {
-  --color1: #636b51;
-  --color2: #f18e7d;
-  --color3: #e9644d;
-  --color4: #fddfc9;
-  --color5: #e4735f;
-  --color6: #a7b97d;
-  --color7: #ac3f2b;
-  --online-color: #60c560;
-  --notification-color: #ca3217;
-  --notification-color2: #ff7a62;
-  --notification-color3: #faab9d;
+  --color1: #2d2d2d; /* Dark Gray */
+  --color2: #3a3a3a; /* Darker Gray */
+  --color3: #444444; /* Dark Gray */
+  --color4: #1c1c1c; /* Very Dark Gray */
+  --color5: #333333; /* Medium Dark Gray */
+  --color6: #555555; /* Light Gray */
+  --color7: #aaaaaa; /* Light Gray */
+  --online-color: #00b894; /* Bright Green */
+  --notification-color: #d63031; /* Red */
+  --notification-color2: #e17055; /* Orange */
+  --notification-color3: #fdcb6e; /* Light Orange */
   --scroll-color: var(--color3) var(--color4);
-  --header-text: #3a3a3a;
+  --header-text: #ecf0f1; /* Light Gray */
   --header-text2: var(--text-color2);
-  --text-color: #272727;
-  --text-color2: #ffe9d9;
-  --text-color3: #303030;
-  --received-color: var(--color5);
+  --text-color: #dfe6e9; /* Very Light Gray */
+  --text-color2: #b2bec3; /* Soft Gray */
+  --text-color3: #636e72; /* Dark Gray */
+  --received-color: var(--color2);
   --sent-color: var(--color1);
   --bio-bottom: var(--text-color2);
-  --blocker-color: rgba(0, 0, 0, 0.5);
-  --icon-filter: invert(19%) sepia(3%) saturate(0%) hue-rotate(137deg) brightness(101%)
-    contrast(89%);
-  --icon-filter2: invert(16%) sepia(0%) saturate(1819%) hue-rotate(138deg) brightness(105%)
-    contrast(98%);
-  --icon-filter3: invert(92%) sepia(8%) saturate(1865%) hue-rotate(306deg) brightness(108%)
-    contrast(107%);
+  --blocker-color: rgba(0, 0, 0, 0.8);
+  --icon-filter: invert(92%) sepia(8%) saturate(1865%) hue-rotate(306deg) brightness(108%) contrast(107%);
+  --icon-filter2: invert(26%) sepia(0%) saturate(1819%) hue-rotate(138deg) brightness(105%) contrast(98%);
+  --icon-filter3: invert(92%) sepia(8%) saturate(1865%) hue-rotate(306deg) brightness(108%) contrast(107%);
 }
 
 * {
   scrollbar-color: var(--scroll-color);
 }
+
 
 /* ~~~~~~~~~~~~~~~LOGIN/SIGN UP PAGES~~~~~~~~~~~~~~~ */
 
